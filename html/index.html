@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     <script src="scripts/index.js" charset="utf-8"></script>
+    <!--<link rel="stylesheet" type="text/css" href="https://github.com/mykhailokukol/hd/blob/master/html/css/styles.css">-->
+    <link rel="stylesheet" type="text/css" href="D:\_Uchebka(3kurs)\Projects\html\pages\css\styles.css">
+    <style>
+      body {
+        background-image: url(https://i.imgur.com/C9SPPLQ.png);
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
   </head>
   <body>
     <!-- Header start -->
@@ -47,10 +59,10 @@
     <br>
     <br>
     <div class="container">
-      <p style="font-size: 72px;">Home</p>
+      <p style="font-size: 72px; color:#ffffff">Home</p>
       <div class="container">
-        <p>Here is the Home Page. Here you are able to Sign Up or Log In.</p>
-        <p style="font-size: 36px;">Log In</p>
+        <p style="color:#cccccc">Here is the Home Page. Here you are able to Sign Up or Log In.</p>
+        <p style="font-size: 36px; color:#ffffff">Log In</p>
         <form>
           <div class="col-auto">
             <label class="sr-only" for="inlineFormInputGroup">Username</label>
@@ -62,22 +74,22 @@
             </div>
           </div>
           <div class="col-auto">
-            <label for="exampleInputPassword1">Password</label>
+            <label for="exampleInputPassword1"><span>Password</span></label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
           </div>
           <br>
           <div class="col-auto">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Remember me!</label>
+            <label class="form-check-label" for="exampleCheck1"><span>Remember me!</span></label>
           </div>
           <br>
-          <button type="submit" class="btn btn-primary">Log In</button>
+          <button type="submit" class="btn btn-primary sharp">Log In</button>
         </form>
         <br>
-        <p style="font-size: 36px;">Sign Up</p>
+        <p style="font-size: 36px; color:#ffffff">Sign Up</p>
         <form>
           <div class="col-auto">
-            <label for="inlineFormInputGroup" class="sr-only">Username</label>
+            <label for="inlineFormInputGroup" class="sr-only"><span>Username</span></label>
             <div class="input-group mb-2">
               <div class="input-group-prepend">
                 <div class="input-group-text">@</div>
@@ -86,18 +98,18 @@
             </div>
           </div>
           <div class="col-auto">
-            <label for="exampleInputEmail1">Email address</label>
+            <label for="exampleInputEmail1"><span>Email address</span></label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
             <small id="emailHelp" class="form-text text-muted">We will never send spam to you.</small>
             <br>
           </div>
           <div class="col-auto">
-            <label for="exampleInputPassword1">Password</label>
+            <label for="exampleInputPassword1"><span>Password</span></label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
           </div>
           <br>
           <div class="col-auto">
-            <label for="exampleFormControlSelect1">Your age</label>
+            <label for="exampleFormControlSelect1"><span>Your age</span></label>
             <select class="form-control" id="exampleFormControlSelect1">
               <option>1</option>
               <option>2</option>
@@ -202,7 +214,7 @@
             </select>
           </div>
           <br>
-          <button type="submit" class="btn btn-primary">Sign Up</button>
+          <button type="submit" class="btn btn-primary sharp">Sign Up</button>
         </form>
         <br>
       </div>
