@@ -1,8 +1,12 @@
-.btn.sharp {
-  padding: 14px 24px;
-  background: #ac8192;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+.sharp {
   border-radius:0;
+  color: #ffffff;
+}
+
+label span {
+  color: #cccccc;
+}
+
+.bg-custom {
+    background-color: #cccccc!important;
 }
