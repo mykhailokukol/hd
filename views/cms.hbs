@@ -8,7 +8,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-      <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
     <!-- Удалить содержимое <head> в случае запуска сервера -->
   <body>
@@ -51,7 +51,7 @@
               </p>
               <p>
                 <label for="prof">Профессия: </label>
-                <select name="prof" required>
+                <select name="prof" class="prof" required>
                   <option value="kalyan_st">Кальянщик (Стажер)</option>
                   <option value="kalyan">Кальянщик</option>
                   <option value="of_st">Официант (Стажер)</option>
@@ -61,7 +61,7 @@
               </p>
               <p>
                 <label for="city">Город: </label>
-                <select name="city" required>
+                <select name="city" class="city" required>
                   <option value="kiev">Киев</option>
                   <option value="kharkov">Харьков</option>
                   <option value="odessa">Одесса</option>
@@ -116,7 +116,7 @@
               </p>
               <p>
                 <label for="zp">Зарплата: </label>
-                <input type="text" name="zp" value="0" required>
+                <input type="text" name="zp" value="0" class="zp" required>
                 <select name="valuta" required>
                   <option value="None">---</option>
                   <option value="uah">UAH</option>
@@ -140,7 +140,7 @@
               </p>
               <p>
                 <label for="krep">Крепость: </label>
-                <select name="krep">
+                <select name="krep" class="krep">
                   <option value="1">1 - очень легкий</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -155,7 +155,7 @@
               </p>
               <p>
                 <label for="taste">Вкус: </label>
-                <select name="taste">
+                <select name="taste" class="taste">
                   <option value="sl">сладкий</option>
                   <option value="k">кислый</option>
                   <option value="sv">свежий</option>
@@ -193,11 +193,11 @@
               </p>
               <p>
                 <label for="name">Название: </label>
-                <input type="text" name="name">
+                <input type="text" name="name" class="nazva">
               </p>
               <p>
                 <label for="city">Город: </label>
-                <select name="city" required>
+                <select name="city" class="city2" required>
                   <option value="kiev">Киев</option>
                   <option value="kharkov">Харьков</option>
                   <option value="odessa">Одесса</option>
@@ -252,7 +252,7 @@
               </p>
               <p>
                 <label for="address">Адрес: </label>
-                <input type="text" name="address">
+                <input type="text" name="address" class="address">
               </p>
               <p>
                 <input type="submit" name="submit" value="Добавить">
