@@ -32,6 +32,36 @@ label span {
   background-color: #cfcfcf;
 }
 
+#rent {
+  opacity: 0.95;
+  color: #000000;
+  margin: 0;
+  width: auto;
+  padding: 16px 16px 16px;
+  background-color: #cfcfcf;
+}
+
+#rent_common {
+  color: #ffffff;
+  margin: 1%;
+  margin-top: 4%;
+}
+
+textarea.name {
+  width: 100%;
+  height: 30px;
+}
+
+textarea.desc {
+  width: 100%;
+  height: 198px;
+}
+
+textarea.taste {
+  width: 100%;
+  height: 60px;
+}
+
 .krep {
   width: 367px;
 }
@@ -45,11 +75,11 @@ label span {
 }
 
 .prof {
-  width: 353px;
+  width: 79.8%;
 }
 
 .zp {
-  width: 307px;
+  width: 65%;
 }
 
 .nazva {
