@@ -62,34 +62,6 @@ textarea.taste {
   height: 60px;
 }
 
-.krep {
-  width: 367px;
-}
-
-.taste {
-  width: 402px;
-}
-
-.city {
-  width: 390px;
-}
-
-.prof {
-  width: 79.8%;
-}
-
-.zp {
-  width: 65%;
-}
-
-.nazva {
-  width: 175px;
-}
-
-.city2 {
-  width: 200px;
-}
-
-.address {
-  width: 200px;
+.w100 {
+  width: 100%;
 }
