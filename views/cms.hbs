@@ -21,12 +21,12 @@
                 <h2>Добавить новость</h2>
               </p>
               <p>
-                <label for="zagolovok">Заголовок: </label>
-                <textarea name="zagolovok" rows="1" cols="60" required></textarea>
+                <label for="zagolovok">Заголовок: </label><br> <!-- Пофикси, плез, перенос, если <br> глаза режет. -->
+                <textarea name="zagolovok" class="name" required></textarea>
               </p>
               <p>
                 <label for="description">Описание: </label>
-                <textarea name="description" rows="8" cols="60" required></textarea>
+                <textarea name="description" class="desc" required></textarea>
               </p>
               <p>
                 <input type="submit" value="Добавить">
@@ -43,15 +43,15 @@
                 <h2>Добавить работу</h2></p>
               <p>
                 <label for="zagolovok">Заголовок: </label>
-                <textarea name="zagolovok" rows="1" cols="60" required></textarea>
+                <textarea name="zagolovok" class="name" required></textarea>
               </p>
               <p>
                 <label for="description">Описание: </label>
-                <textarea name="description" rows="8" cols="60" required></textarea>
+                <textarea name="description" class="desc" required></textarea>
               </p>
               <p>
                 <label for="prof">Профессия: </label>
-                <select name="prof" class="prof" required>
+                <select name="prof" class="w100" required>
                   <option value="kalyan_st">Кальянщик (Стажер)</option>
                   <option value="kalyan">Кальянщик</option>
                   <option value="of_st">Официант (Стажер)</option>
@@ -61,7 +61,7 @@
               </p>
               <p>
                 <label for="city">Город: </label>
-                <select name="city" class="city" required>
+                <select name="city" class="w100" required>
                   <option value="kiev">Киев</option>
                   <option value="kharkov">Харьков</option>
                   <option value="odessa">Одесса</option>
@@ -116,7 +116,7 @@
               </p>
               <p>
                 <label for="zp">Зарплата: </label>
-                <input type="text" name="zp" value="0" class="zp" required>
+                <input type="text" name="zp" value="0" style="width:auto;" required>
                 <select name="valuta" required>
                   <option value="None">---</option>
                   <option value="uah">UAH</option>
@@ -140,7 +140,7 @@
               </p>
               <p>
                 <label for="krep">Крепость: </label>
-                <select name="krep" class="krep">
+                <select name="krep" class="w100">
                   <option value="1">1 - очень легкий</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -155,7 +155,7 @@
               </p>
               <p>
                 <label for="taste">Вкус: </label>
-                <select name="taste" class="taste">
+                <select name="taste" class="w100">
                   <option value="sl">сладкий</option>
                   <option value="k">кислый</option>
                   <option value="sv">свежий</option>
@@ -175,7 +175,7 @@
               </p>
               <p>
                 <label for="tbc">Табак-Вкус (через запятую):</label>
-                <textarea name="tbc" rows="2" cols="60"></textarea>
+                <textarea name="tbc" class="taste"></textarea>
               </p>
               <p>
                 <input type="submit" name="submit" value="Добавить">
@@ -193,11 +193,11 @@
               </p>
               <p>
                 <label for="name">Название: </label>
-                <input type="text" name="name" class="nazva">
+                <input type="text" name="name" class="w100">
               </p>
               <p>
                 <label for="city">Город: </label>
-                <select name="city" class="city2" required>
+                <select name="city" class="w100" required>
                   <option value="kiev">Киев</option>
                   <option value="kharkov">Харьков</option>
                   <option value="odessa">Одесса</option>
@@ -252,7 +252,7 @@
               </p>
               <p>
                 <label for="address">Адрес: </label>
-                <input type="text" name="address" class="address">
+                <input type="text" name="address" class="w100">
               </p>
               <p>
                 <input type="submit" name="submit" value="Добавить">
